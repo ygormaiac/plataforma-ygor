@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+    
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:white;
+  
+  }
+
+  body {
+  padding-top: 5%;
+  }
+  
+  .home {
+    min-height: 80vh;
+    width: 90%;
+    background: whitesmoke;
+    padding: 15px;
+    margin-left: 5%;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 1em #666;
+    -webkit-box-shadow: 0px 0px 1em #666;
+    -moz-box-shadow: 0px 0px 1em #666;
+    
+  }
+
+  .menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      margin-bottom: 1rem;
+  }
+  
+  .menu li {
+      display: inline;
+      float: left;
+  }
+
+  .menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .menu li a:hover {
+    background-color: #111;
+  }
+
+  .container-img-child img {
+      width: 450px;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+      margin-top: 20px;
+      border: 3px solid #ddd;
+  
+  }
+  
+  .container-img-parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .text1 {
+    text-align: center;
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .text2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .text-muted {
+    color: darkgray;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1.redesSociais {
+    display: none;
+  }
+  
+  ul.redesSociais {
+    padding-left: 0;
+    width: 620px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    margin-top: 50px;
+    margin-left: -310px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    
+  }
+  
+  ul.redesSociais li {
+    list-style-position: inside;
+    display: block;
+    position: absolute;
+    right: 50%;
+    transition: all 500ms;
+  }
+  
+  /*Sem Mouse*/
+  ul.redesSociais li.github {
+    transform: scale(0.5);
+    margin-right: -10px;
+    z-index:0;
+  }
+  ul.redesSociais li.facebook {
+    transform: scale(0.5);
+    margin-right: -30px;
+    z-index:1;
+  }
+  ul.redesSociais li.twitter {
+    transform: scale(0.5);
+    margin-right: -50px;
+    z-index:2;
+  }
+  ul.redesSociais li.gmail {
+    transform: scale(0.5);
+    margin-right: -70px;
+    z-index:1;
+  }
+  ul.redesSociais li.insta {
+    transform: scale(0.5);
+    margin-right: -90px;
+    z-index:0;
+  }
+  /*Com Mouse*/
+ul.redesSociais:hover li.github {
+    margin-right: 190px;
+  }
+  ul.redesSociais:hover li.facebook {
+    margin-right: 70px;
+  }
+  ul.redesSociais:hover li.twitter {
+    margin-right: -50px;
+  }
+  ul.redesSociais:hover li.gmail {
+    margin-right: -170px;
+  }
+  ul.redesSociais:hover li.insta {
+     margin-right: -290px;
+  }
